@@ -32,10 +32,10 @@ spring:
       primary: xhhOpen #设置默认的数据源或者数据源组,默认值即为master,如果你主从默认下主库的名称就是master可不定义此项。
       datasource:
         xhhOpen:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/xhh_open?useSSL=false&zeroDateTimeBehavior=convertToNull
+          username: root
+          password: 1qaz@2wsx
+          url: jdbc:mysql://192.168.21.110:3306/xhh_open?useSSL=false&zeroDateTimeBehavior=convertToNull
         analysisRepertory:
-          username: strategy
-          password: egm1OHnuJUpMt!LxXW
-          url: jdbc:mysql://182.92.80.211:3306/analysis_repertory_tidb?useSSL=false&zeroDateTimeBehavior=convertToNull
+          username: root
+          password: 1qaz@2wsx
+          url: jdbc:mysql://192.168.21.110:3306/analysis_repertory_tidb?useSSL=false&zeroDateTimeBehavior=convertToNull
